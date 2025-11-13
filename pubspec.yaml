@@ -1,0 +1,28 @@
+name: uts_pm_final_clean
+description: "Final project for Mobile Programming UTS, containing 5 menu fragments."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # KOREKSI FINAL: Menggunakan format range yang benar
+  sdk: '>=3.9.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.18.1 # Untuk format tanggal di Biodata
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # KONFIGURASI ASSETS untuk foto Splash Screen
+  assets:
+    - assets/
